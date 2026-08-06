@@ -12,19 +12,22 @@
 | Модуль 02 | ДЗ 1 | Линейные модели: веса, регуляризация и что они прогнозируют | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW1_linear_models_weights_and_predictions.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW1_linear_models_weights_and_predictions_en.ipynb) |
 | Модуль 02 | Туториал | GLM и GAM: веса в правильной шкале | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_GLM_weights_on_the_right_scale.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_GLM_weights_on_the_right_scale_en.ipynb) |
 | Модуль 04 | ДЗ 2 | Нелинейные модели: важность признаков от дерева до бустингов | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW2_forest_and_boosting_importances.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW2_forest_and_boosting_importances_en.ipynb) |
-
 | Модуль 08 | ДЗ 3 | Взаимодействие признаков: карты, SHAP interaction values, H-статистика | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW3_feature_interactions.ipynb) | — |
 | Модуль 09 | ДЗ 4 | CNN: карты активаций и выученные признаки | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW4_cnn_learned_features.ipynb) | — |
 | Модуль 10 | ДЗ 5 | Vanilla Gradients и Gradient × Input | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW5_vanilla_gradients.ipynb) | — |
-| Модуль 11 | ДЗ 6 | CAM: карты активации класса | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW6_cam.ipynb) | — |
-| Модуль 11 | ДЗ 7 | Guided Backpropagation | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW7_guided_backprop.ipynb) | — |
-| Модуль 11 | ДЗ 8 | Grad-CAM и контрфактические карты | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW8_gradcam.ipynb) | — |
-| Модуль 12 | ДЗ 9 | Integrated Gradients: аксиомы на практике | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW9_integrated_gradients.ipynb) | — |
-| Модуль 12 | ДЗ 10 | DeepLIFT: отклонения активаций от эталона | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW10_deeplift.ipynb) | — |
-| Модуль 12 | ДЗ 11 | Layer-wise Relevance Propagation | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW11_lrp.ipynb) | — |
+| Модуль 10 | ДЗ 6 | CAM: карты активации класса | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW6_cam.ipynb) | — |
+| Модуль 10 | ДЗ 7 | Guided Backpropagation | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW7_guided_backprop.ipynb) | — |
+| Модуль 10 | ДЗ 8 | Grad-CAM и контрфактические карты | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW8_gradcam.ipynb) | — |
+| Модуль 11 | ДЗ 9 | Integrated Gradients: аксиомы на практике | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW9_integrated_gradients.ipynb) | — |
+| Модуль 11 | ДЗ 10 | DeepLIFT: отклонения активаций от эталона | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW10_deeplift.ipynb) | — |
+| Модуль 11 | ДЗ 11 | Layer-wise Relevance Propagation | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW11_lrp.ipynb) | — |
 
 Ссылки открывают ноутбук прямо в Google Colab. Данные ноутбуки тянут по сети, а
 недостающие библиотеки ставят сами — готовить ничего заранее не нужно.
+
+Номера модулей сверены 06.08.2026 с контентом сайта по шагам-практикам: ДЗ 6, 7 и 8 относятся
+к модулю **10** (Gradient-based 1), а ДЗ 9, 10 и 11 — к модулю **11** (Gradient-based 2).
+Раньше в таблице они были сдвинуты на один модуль вперёд.
 
 ## Три репозитория: кто за что отвечает
 
@@ -86,6 +89,23 @@
 ## Что где лежит
 
 - `homeworks/` — ноутбуки, по одному файлу на задание; английские версии с суффиксом `_en`;
-- `data/` — наборы данных, которых нет в открытом доступе в другом месте.
+- `data/` — наборы данных, которых нет в открытом доступе в другом месте:
+  `cat_and_dog.jpg`, `hog.jpg`, `orange_dataset.csv`, `pig.png`, `student-mat.csv`.
 
 Английские версии ДЗ 3–11 пока не готовы — в таблице у них прочерк.
+
+## Известные долги (сверено 06.08.2026)
+
+- **Данные двух практик лежат не здесь.** ДЗ 2 и туториал GLM тянут `diabetes.csv`
+  из личного репозитория `SadSabrina/interpretable_AI_course`, туториал ещё и `insurance.csv`
+  из чужого учебного репозитория. По правилу места оба файла должны лежать в `data/` здесь.
+  ДЗ 7 и ДЗ 9 берут картинки из `aiedu-courses/all_datasets` — при этом `cat_and_dog.jpg`
+  уже лежит в нашем `data/`.
+- **Прогон не зафиксирован.** Ни у одного ноутбука нет выводов ячеек — это нормальный формат
+  публикации, но подтверждения прогона в репозитории нет. Два туториала GLM прогнаны
+  наполовину (20 из 27 ячеек в русской версии, 21 из 27 в английской) — по правилу это дефект:
+  смесь ячеек с выводами и без выглядит как «часть кода не работает».
+- **ДЗ 1 опубликовано как готовое решение**, без пропусков «# ваш код здесь» — в отличие
+  от ДЗ 2, где их десять.
+
+Разбор целиком — `Curriculum/Ноутбуки — покрытие и проверка` в планировочном репозитории.
