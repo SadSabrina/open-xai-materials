@@ -114,8 +114,8 @@
   внутри модуля;
 - `cheatsheets/` — раздаточные PDF;
 - `data/` — наборы данных и таблицы, которых нет в открытом доступе в другом месте:
-  `ALE_by_hand.xlsx`, `cat_and_dog.jpg`, `diabetes.csv`, `hog.jpg`, `insurance.csv`,
-  `orange_dataset.csv`, `pig.png`, `student-mat.csv`.
+  `ALE_by_hand.xlsx`, `cat_and_dog.jpg`, `diabetes.csv`, `hog.jpg`, `housing.csv`,
+  `insurance.csv`, `orange_dataset.csv`, `pig.png`, `student-mat.csv`.
 
 Английские версии ДЗ 3–11 пока не готовы — в таблице у них прочерк.
 
@@ -127,7 +127,8 @@
   где чужое хранилище — жёсткое нарушение правила места, а не долг.
 - **Практики тянут данные из `SadSabrina/explainable_AI_course` и `aiedu-courses/all_datasets`** —
   california housing, картинки для XRAI и TCAV, `words_data.csv` для эмбеддингов. Репозитории
-  открытые, поэтому ноутбуки работают, но данные стоит перевезти сюда.
+  открытые, поэтому ноутбуки работают, но данные стоит перевезти сюда. `housing.csv` переехал
+  09.08.2026: на него ссылался и сам сайт, а не только код ноутбука.
 - **`PRACTICE_pca_and_autoencoders` за 300 картинками кошек и собак ходит в личный Google Drive.**
   Модель берётся с Hugging Face, а вот батч-часть без диска не пройдёт.
 - **Практики не прогнаны после переноса.** Выводы ячеек сняты при переносе из личных Colab
