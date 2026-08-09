@@ -18,15 +18,15 @@
 | Модуль 07 | Практика | SHAP для ML-моделей | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_shap.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_shap_en.ipynb) |
 | Модуль 07 | Практика | LIME: две суррогатные модели с нуля | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_lime.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_lime_en.ipynb) |
 | Модуль 07 | Практика | Контрфактические объяснения | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_counterfactual_explanations.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_counterfactual_explanations_en.ipynb) |
-| Модуль 08 | ДЗ 3 | Взаимодействие признаков: карты, SHAP interaction values, H-статистика | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW3_feature_interactions.ipynb) | — |
-| Модуль 09 | ДЗ 4 | CNN: карты активаций и выученные признаки | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW4_cnn_learned_features.ipynb) | — |
-| Модуль 10 | ДЗ 5 | Vanilla Gradients и Gradient × Input | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW5_vanilla_gradients.ipynb) | — |
-| Модуль 10 | ДЗ 6 | CAM: карты активации класса | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW6_cam.ipynb) | — |
-| Модуль 10 | ДЗ 7 | Guided Backpropagation | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW7_guided_backprop.ipynb) | — |
-| Модуль 10 | ДЗ 8 | Grad-CAM и контрфактические карты | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW8_gradcam.ipynb) | — |
-| Модуль 11 | ДЗ 9 | Integrated Gradients: аксиомы на практике | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW9_integrated_gradients.ipynb) | — |
-| Модуль 11 | ДЗ 10 | DeepLIFT: отклонения активаций от эталона | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW10_deeplift.ipynb) | — |
-| Модуль 11 | ДЗ 11 | Layer-wise Relevance Propagation | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW11_lrp.ipynb) | — |
+| Модуль 08 | ДЗ 3 | Взаимодействие признаков: карты, SHAP interaction values, H-статистика | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW3_feature_interactions.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW3_feature_interactions_en.ipynb) |
+| Модуль 09 | ДЗ 4 | CNN: карты активаций и выученные признаки | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW4_cnn_learned_features.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW4_cnn_learned_features_en.ipynb) |
+| Модуль 10 | ДЗ 5 | Vanilla Gradients и Gradient × Input | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW5_vanilla_gradients.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW5_vanilla_gradients_en.ipynb) |
+| Модуль 10 | ДЗ 6 | CAM: карты активации класса | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW6_cam.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW6_cam_en.ipynb) |
+| Модуль 10 | ДЗ 7 | Guided Backpropagation | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW7_guided_backprop.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW7_guided_backprop_en.ipynb) |
+| Модуль 10 | ДЗ 8 | Grad-CAM и контрфактические карты | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW8_gradcam.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW8_gradcam_en.ipynb) |
+| Модуль 11 | ДЗ 9 | Integrated Gradients: аксиомы на практике | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW9_integrated_gradients.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW9_integrated_gradients_en.ipynb) |
+| Модуль 11 | ДЗ 10 | DeepLIFT: отклонения активаций от эталона | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW10_deeplift.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW10_deeplift_en.ipynb) |
+| Модуль 11 | ДЗ 11 | Layer-wise Relevance Propagation | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW11_lrp.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/HW11_lrp_en.ipynb) |
 | Модуль 13 | Практика | XRAI: от пикселей к областям | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_xrai.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_xrai_en.ipynb) |
 | Модуль 13 | Практика | TCAV: векторы активации концептов | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_tcav.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_tcav_en.ipynb) |
 | Модуль 13 | Практика | CBM и CEM: модели с концептами | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_cbm_cem.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_cbm_cem_en.ipynb) |
@@ -35,6 +35,8 @@
 | Модуль 15 | Практика | Анализ эмбеддингов и зондирование | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_embeddings_and_probing.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_embeddings_and_probing_en.ipynb) |
 | Модуль 18 | Практика | PCA и автокодировщики над скрытыми состояниями | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_pca_and_autoencoders.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_pca_and_autoencoders_en.ipynb) |
 | Модуль 18 | Практика | Logit Lens | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_logit_lens.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_logit_lens_en.ipynb) |
+| Модуль 20 | Туториал | LIME своими руками на fat-forensics | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_LIME.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_LIME_en.ipynb) |
+| Модуль 20 | Туториал | CAM для детекции: YOLO NAS S на COCO | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_yolo_nas_cam.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_yolo_nas_cam_en.ipynb) |
 
 ## Другие материалы
 
@@ -49,6 +51,11 @@
 Номера модулей сверены 06.08.2026 с контентом сайта по шагам-практикам: ДЗ 6, 7 и 8 относятся
 к модулю **10** (Gradient-based 1), а ДЗ 9, 10 и 11 — к модулю **11** (Gradient-based 2).
 Раньше в таблице они были сдвинуты на один модуль вперёд.
+
+Два туториала модуля 20 написала Сабрина, и до 09.08.2026 они жили в её `XAI-open_materials`.
+В наших копиях приглашение «приходите на мой курс» ведёт на сайт, а не на Степик — так велит
+правило места; телеграм-канал и LinkedIn авторки остались. Картинки COCO и список классов для
+CAM переехали к нам в `data/`, поэтому туториал больше никуда не ходит за данными.
 
 ## Три репозитория: кто за что отвечает
 
@@ -114,10 +121,11 @@
   внутри модуля;
 - `cheatsheets/` — раздаточные PDF;
 - `data/` — наборы данных и таблицы, которых нет в открытом доступе в другом месте:
-  `ALE_by_hand.xlsx`, `cat_and_dog.jpg`, `diabetes.csv`, `hog.jpg`, `housing.csv`,
-  `insurance.csv`, `orange_dataset.csv`, `pig.png`, `student-mat.csv`.
+  `ALE_by_hand.xlsx`, `cat_and_dog.jpg`, `coco_test.zip`, `diabetes.csv`, `hog.jpg`,
+  `housing.csv`, `insurance.csv`, `ms_coco_classnames.txt`, `orange_dataset.csv`, `pig.png`,
+  `student-mat.csv`.
 
-Английские версии ДЗ 3–11 пока не готовы — в таблице у них прочерк.
+Английские версии есть у всего: прочерков в таблице не осталось.
 
 ## Известные долги (сверено 09.08.2026)
 
@@ -133,6 +141,10 @@
   Модель берётся с Hugging Face, а вот батч-часть без диска не пройдёт.
 - **Практики не прогнаны после переноса.** Выводы ячеек сняты при переносе из личных Colab
   09.08.2026; сами ячейки с тех пор никто не запускал.
+- **Туториал по зондированию GPT-2 остался у Сабрины и не работает.** Сбор данных читает
+  файл по локальному пути `/Users/sabrinasadieh/…`, а сам csv в `XAI-open_materials` нулевого
+  размера; вторая часть ждёт `results/X_acivations_*.csv`, которых в репозитории нет. Забирать
+  нечего, пока Сабрина не выложит данные и не поправит путь.
 - **Прогон не зафиксирован.** Ни у одного ноутбука нет выводов ячеек — это нормальный формат
   публикации, но подтверждения прогона в репозитории нет. Два туториала GLM прогнаны
   наполовину (20 из 27 ячеек в русской версии, 21 из 27 в английской) — по правилу это дефект:
