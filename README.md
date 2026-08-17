@@ -103,7 +103,7 @@ CAM переехали к нам в `data/`, поэтому туториал б�
 ### `open_xai_platform` — сайт
 
 Берёт **согласованный русский контент** из materials-private, переводит на английский и
-выкладывает на [open-xai-platform.web.app](https://open-xai-platform.web.app). Здесь живут
+выкладывает на [ai-interpretability.school](https://ai-interpretability.school). Здесь живут
 контент сайта (`web/content/`), платформа, скрипты сборки и деплоя.
 
 Сюда относятся задачи: импорт готовых модулей, перевод на английский, `check_translation.py`,
