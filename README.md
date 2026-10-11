@@ -64,6 +64,7 @@
 | Вне модулей сайта | Практика | Стиринг активациями: вектор разности средних в GPT-2, перебор слоя и силы | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_activation_steering.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/PRACTICE_activation_steering_en.ipynb) |
 | Вне модулей сайта | Туториал | LIME своими руками на fat-forensics | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_LIME.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_LIME_en.ipynb) |
 | Вне модулей сайта | Туториал | CAM для детекции: YOLO NAS S на COCO | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_yolo_nas_cam.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_yolo_nas_cam_en.ipynb) |
+| Вне модулей сайта | Туториал | ICX360: объяснение ответа LLM через части контекста (MExGen, Token Highlighter) | [RU](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_icx360.ipynb) | [EN](https://colab.research.google.com/github/SadSabrina/open-xai-materials/blob/main/homeworks/TUTORIAL_icx360_en.ipynb) |
 
 ## Другие материалы
 
