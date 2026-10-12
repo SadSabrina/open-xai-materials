@@ -168,8 +168,9 @@ CAM переехали к нам в `data/`, поэтому туториал б�
 - `assets/` — картинки, которые ноутбуки скачивают по ссылке;
 - `data/` — наборы данных и таблицы, которых нет в открытом доступе в другом месте:
   `ALE_by_hand.xlsx`, `ALE_by_hand_en.xlsx`, `cat.jpg`, `cat_and_dog.jpg`, `coco_test.zip`,
-  `diabetes.csv`, `hog.jpg`, `housing.csv`, `imagenet_classes.txt`, `insurance.csv`,
-  `ms_coco_classnames.txt`, `orange_dataset.csv`, `pig.png`, `student-mat.csv`.
+  `diabetes.csv`, `hog.jpg`, `housing.csv`, `imagenet_classes.txt`, `insurance.csv`, `mroz.csv`,
+  `ms_coco_classnames.txt`, `orange_dataset.csv`, `pig.png`, `student-mat.csv`. `mroz.csv` —
+  данные Mroz (1987) в том виде, в каком их раздает пакет `wooldridge` 0.5.0: 753 строки, 22 столбца.
 
 Английские версии есть у всего: прочерков в таблице не осталось.
 
