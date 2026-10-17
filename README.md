@@ -195,12 +195,12 @@ CAM переехали к нам в `data/`, поэтому туториал б�
   префикс говорит о жанре: `HW` — домашнее задание, `TUTORIAL` — разбор, `PRACTICE` — практика
   внутри модуля;
 - `cheatsheets/` — раздаточные PDF;
-- `assets/` — картинки, которые ноутбуки скачивают по ссылке;
+- `assets/` — картинки, которые ноутбуки скачивают по ссылке (с 18.10.2026 туда же перевезены обложки `PRACTICE_lime`, `TUTORIAL_LIME` и `PRACTICE_permutation_importance` с `i.postimg.cc` и `ucarecdn.com`);
 - `data/` — наборы данных и таблицы, которых нет в открытом доступе в другом месте:
   `ALE_by_hand.xlsx`, `ALE_by_hand_en.xlsx`, `cat.jpg`, `cat_and_dog.jpg`, `coco_test.zip`,
-  `diabetes.csv`, `hog.jpg`, `housing.csv`, `imagenet_classes.txt`, `insurance.csv`, `mroz.csv`,
+  `bike.csv`, `diabetes.csv`, `fetch_california_housing.csv`, `hog.jpg`, `housing.csv`, `imagenet_classes.txt`, `insurance.csv`, `learning_mindset.csv`, `mroz.csv`,
   `ms_coco_classnames.txt`, `orange_dataset.csv`, `pig.png`, `student-mat.csv`, `california_prop99.csv`. `mroz.csv` —
-  данные Mroz (1987) в том виде, в каком их раздает пакет `wooldridge` 0.5.0: 753 строки, 22 столбца.
+  данные Mroz (1987) в том виде, в каком их раздает пакет `wooldridge` 0.5.0: 753 строки, 22 столбца. `bike.csv` — Bike Sharing (UCI, CC BY 4.0) в той выгрузке, которую раздает `shapiq` (18.10.2026, `PRACTICE_interaction_indices`); `learning_mindset.csv` — из python-causality-handbook (MIT, 18.10.2026, `PRACTICE_causal_forest`, `PRACTICE_cate_interpretation`).
   `california_prop99.csv` — продажи сигарет на душу населения по 39 штатам США за 1970–2000 годы
   (Proposition 99), копия `data/california_prop99.csv` пакета
   [`synthdid`](https://github.com/synth-inference/synthdid) 0.0.9 (Arkhangelsky, Athey, Hirshberg,
@@ -210,13 +210,13 @@ CAM переехали к нам в `data/`, поэтому туториал б�
 
 ## Известные долги (сверено 08.10.2026)
 
-- **Практики тянут данные из `SadSabrina/explainable_AI_course`**: california housing, картинки
-  для XRAI, TCAV и PCA, `words_data.csv` для эмбеддингов (`PRACTICE_shap`,
-  `PRACTICE_permutation_importance`, `PRACTICE_counterfactual_explanations`, `PRACTICE_xrai`,
+- **Практики тянут данные из `SadSabrina/explainable_AI_course`**: картинки
+  для XRAI, TCAV и PCA, `words_data.csv` для эмбеддингов (`PRACTICE_xrai`,
   `PRACTICE_tcav`, `PRACTICE_pca_and_autoencoders`, `PRACTICE_embeddings_and_probing`), **и из
   `aiedu-courses/all_datasets`**: `tcav.zip` в `PRACTICE_tcav` (`student-mat.csv` практика
   `PRACTICE_causal_linear_regression` с 18.10.2026 берет из нашего `data/`). Репозитории открытые,
-  поэтому ноутбуки работают, но данные стоит перевезти сюда.
+  поэтому ноутбуки работают, но данные стоит перевезти сюда. California housing перевезен 18.10.2026: `data/fetch_california_housing.csv` (байт в байт тот же файл) читают `PRACTICE_shap`,
+  `PRACTICE_permutation_importance` и `PRACTICE_counterfactual_explanations`.
 - **`PRACTICE_pca_and_autoencoders` за 300 картинками кошек и собак ходит в личный Google Drive.**
   Модель берется с Hugging Face, а вот батч-часть без диска не пройдет.
 - **Практики не прогнаны после переноса.** Выводы ячеек сняты при переносе из личных Colab
