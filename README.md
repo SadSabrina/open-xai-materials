@@ -199,7 +199,7 @@ CAM переехали к нам в `data/`, поэтому туториал б�
 - `data/` — наборы данных и таблицы, которых нет в открытом доступе в другом месте:
   `ALE_by_hand.xlsx`, `ALE_by_hand_en.xlsx`, `cat.jpg`, `cat_and_dog.jpg`, `coco_test.zip`,
   `diabetes.csv`, `hog.jpg`, `housing.csv`, `imagenet_classes.txt`, `insurance.csv`, `mroz.csv`,
-  `ms_coco_classnames.txt`, `orange_dataset.csv`, `pig.png`, `student-mat.csv`. `mroz.csv` —
+  `ms_coco_classnames.txt`, `orange_dataset.csv`, `pig.png`, `student-mat.csv`, `words_data.csv`. `mroz.csv` —
   данные Mroz (1987) в том виде, в каком их раздает пакет `wooldridge` 0.5.0: 753 строки, 22 столбца.
 
 Английские версии есть у всего: прочерков в таблице не осталось.
@@ -207,9 +207,10 @@ CAM переехали к нам в `data/`, поэтому туториал б�
 ## Известные долги (сверено 08.10.2026)
 
 - **Практики тянут данные из `SadSabrina/explainable_AI_course`**: california housing, картинки
-  для XRAI, TCAV и PCA, `words_data.csv` для эмбеддингов (`PRACTICE_shap`,
-  `PRACTICE_permutation_importance`, `PRACTICE_counterfactual_explanations`, `PRACTICE_xrai`,
-  `PRACTICE_tcav`, `PRACTICE_pca_and_autoencoders`, `PRACTICE_embeddings_and_probing`), **и из
+  для XRAI, TCAV и PCA (`PRACTICE_shap`, `PRACTICE_permutation_importance`,
+  `PRACTICE_counterfactual_explanations`, `PRACTICE_xrai`, `PRACTICE_tcav`,
+  `PRACTICE_pca_and_autoencoders`; `words_data.csv` для `PRACTICE_embeddings_and_probing`
+  перевезен в `data/` 18.10.2026), **и из
   `aiedu-courses/all_datasets`**: `student-mat.csv` в `PRACTICE_causal_linear_regression`, хотя
   этот файл уже лежит в нашем `data/`, и `tcav.zip` в `PRACTICE_tcav`. Репозитории открытые,
   поэтому ноутбуки работают, но данные стоит перевезти сюда.
