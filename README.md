@@ -199,8 +199,12 @@ CAM переехали к нам в `data/`, поэтому туториал б�
 - `data/` — наборы данных и таблицы, которых нет в открытом доступе в другом месте:
   `ALE_by_hand.xlsx`, `ALE_by_hand_en.xlsx`, `cat.jpg`, `cat_and_dog.jpg`, `coco_test.zip`,
   `diabetes.csv`, `hog.jpg`, `housing.csv`, `imagenet_classes.txt`, `insurance.csv`, `mroz.csv`,
-  `ms_coco_classnames.txt`, `orange_dataset.csv`, `pig.png`, `student-mat.csv`. `mroz.csv` —
+  `ms_coco_classnames.txt`, `orange_dataset.csv`, `pig.png`, `student-mat.csv`, `california_prop99.csv`. `mroz.csv` —
   данные Mroz (1987) в том виде, в каком их раздает пакет `wooldridge` 0.5.0: 753 строки, 22 столбца.
+  `california_prop99.csv` — продажи сигарет на душу населения по 39 штатам США за 1970–2000 годы
+  (Proposition 99), копия `data/california_prop99.csv` пакета
+  [`synthdid`](https://github.com/synth-inference/synthdid) 0.0.9 (Arkhangelsky, Athey, Hirshberg,
+  Imbens, Wager; лицензия GPL (>= 2) или BSD-3, © 2019 Stanford University).
 
 Английские версии есть у всего: прочерков в таблице не осталось.
 
@@ -210,8 +214,8 @@ CAM переехали к нам в `data/`, поэтому туториал б�
   для XRAI, TCAV и PCA, `words_data.csv` для эмбеддингов (`PRACTICE_shap`,
   `PRACTICE_permutation_importance`, `PRACTICE_counterfactual_explanations`, `PRACTICE_xrai`,
   `PRACTICE_tcav`, `PRACTICE_pca_and_autoencoders`, `PRACTICE_embeddings_and_probing`), **и из
-  `aiedu-courses/all_datasets`**: `student-mat.csv` в `PRACTICE_causal_linear_regression`, хотя
-  этот файл уже лежит в нашем `data/`, и `tcav.zip` в `PRACTICE_tcav`. Репозитории открытые,
+  `aiedu-courses/all_datasets`**: `tcav.zip` в `PRACTICE_tcav` (`student-mat.csv` практика
+  `PRACTICE_causal_linear_regression` с 18.10.2026 берет из нашего `data/`). Репозитории открытые,
   поэтому ноутбуки работают, но данные стоит перевезти сюда.
 - **`PRACTICE_pca_and_autoencoders` за 300 картинками кошек и собак ходит в личный Google Drive.**
   Модель берется с Hugging Face, а вот батч-часть без диска не пройдет.
