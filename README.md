@@ -203,27 +203,37 @@ CAM переехали к нам в `data/`, поэтому туториал б�
 - `assets/` — картинки, которые ноутбуки скачивают по ссылке (с 18.10.2026 туда же перевезены обложки `PRACTICE_lime`, `TUTORIAL_LIME` и `PRACTICE_permutation_importance` с `i.postimg.cc` и `ucarecdn.com`);
 - `data/` — наборы данных и таблицы, которых нет в открытом доступе в другом месте:
   `ALE_by_hand.xlsx`, `ALE_by_hand_en.xlsx`, `cat.jpg`, `cat_and_dog.jpg`, `coco_test.zip`,
-  `bike.csv`, `diabetes.csv`, `fetch_california_housing.csv`, `hog.jpg`, `housing.csv`, `imagenet_classes.txt`, `insurance.csv`, `learning_mindset.csv`, `mroz.csv`,
+  `bike.csv`, `diabetes.csv`, `fetch_california_housing.csv`, `hog.jpg`, `housing.csv`, `imagenet_classes.txt`, `insurance.csv`, `learning_mindset.csv`, `ihdp_npci_1.csv`, `mroz.csv`,
   `ms_coco_classnames.txt`, `orange_dataset.csv`, `pig.png`, `student-mat.csv`, `words_data.csv`, `california_prop99.csv`. `mroz.csv` —
-  данные Mroz (1987) в том виде, в каком их раздает пакет `wooldridge` 0.5.0: 753 строки, 22 столбца. `bike.csv` — Bike Sharing (UCI, CC BY 4.0) в той выгрузке, которую раздает `shapiq` (18.10.2026, `PRACTICE_interaction_indices`); `learning_mindset.csv` — из python-causality-handbook (MIT, 18.10.2026, `PRACTICE_causal_forest`, `PRACTICE_cate_interpretation`).
+  данные Mroz (1987) в том виде, в каком их раздает пакет `wooldridge` 0.5.0: 753 строки, 22 столбца. `bike.csv` — Bike Sharing (UCI, CC BY 4.0) в той выгрузке, которую раздает `shapiq` (18.10.2026, `PRACTICE_interaction_indices`); `learning_mindset.csv` — из python-causality-handbook (MIT, 18.10.2026, `PRACTICE_causal_forest`, `PRACTICE_cate_interpretation`). `ihdp_npci_1.csv` — первая реализация полусинтетического IHDP (Hill, 2011), копия `docs/examples/data/ihdp_npci_1.csv` из [uber/causalml](https://github.com/uber/causalml) (Apache-2.0), байт в байт совпадает с файлом репозитория CEVAE, у которого лицензии нет (18.10.2026, `PRACTICE_r_learner`, `PRACTICE_cate_neural`).
   `california_prop99.csv` — продажи сигарет на душу населения по 39 штатам США за 1970–2000 годы
   (Proposition 99), копия `data/california_prop99.csv` пакета
   [`synthdid`](https://github.com/synth-inference/synthdid) 0.0.9 (Arkhangelsky, Athey, Hirshberg,
   Imbens, Wager; лицензия GPL (>= 2) или BSD-3, © 2019 Stanford University).
+  `cat_and_a_cupboard.jpg` — фото Plavaloguna, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_and_a_cupboard.jpg),
+  CC0, EXIF снят (`PRACTICE_xrai`, с 18.10.2026 вместо `cat_plates_cupboard.jpg` без источника).
+  `tcav.zip` (7 МБ, `PRACTICE_tcav`, `PRACTICE_ace`) — полосы, зигзаги и точки, нарисованные скриптом
+  `stepik_next/toy_examples/16_428286_fix1018b_tcav_data.py` (materials-private), 79 случайных фотографий
+  Unsplash под CC0 и 35 фотографий зебр под CC0, public domain и CC BY с Wikimedia Commons; автор,
+  лицензия и страница каждой фотографии — в `tcav/CREDITS.md` внутри архива. Прежний архив состоял из
+  текстур DTD/Broden, изображений ImageNet и зебр из интернета без свободной лицензии (18.10.2026).
+  `oxford_pets_300.zip` — 150 кошек и 150 собак из тестовой части The Oxford-IIIT Pet Dataset (Parkhi, Vedaldi, Zisserman, Jawahar, 2012; CC BY-SA 4.0; копия `timm/oxford-iiit-pet` на Hugging Face), сид 7, до 320 px, в архиве `SOURCE.txt` с атрибуцией; `cat_piran.jpg` — «Cat in Piran, Slovenia», Jakub Hałun, Wikimedia Commons, CC BY 4.0, 1280 px, без EXIF (оба — 18.10.2026, `PRACTICE_pca_and_autoencoders`, вместо 300 картинок из личного Google Drive и `chester.jpg`).
+  `piglet.jpg` — фото Brett Sayles, [Pexels](https://www.pexels.com/photo/4966539/), лицензия Pexels, 3000×1996, EXIF снят (18.10.2026, тетради модуля 12 вместо `hog.jpg`, у которого источник не найден); `cat_and_dog.jpg` — фото Priscilla Du Preez, [Unsplash](https://unsplash.com/photos/qtkpOxCpl0Y), лицензия Unsplash.
+  `adult.csv` — UCI Adult (Becker, Kohavi, 1996; CC BY 4.0, DOI 10.24432/C5XW20; 18.10.2026, `PRACTICE_fooling_lime_shap` и `PRACTICE_tabular_attacks` вместо COMPAS, условия ProPublica запрещают распространять данные); `2001_correlation_or_causation.png` — наша схема для шага `5404926` §20 Степика (генератор `scripts/figures/make_figure_20_correlation.py` платформы, 18.10.2026).
 
 Английские версии есть у всего: прочерков в таблице не осталось.
 
 ## Известные долги (сверено 08.10.2026)
 
 - **Практики тянут данные из `SadSabrina/explainable_AI_course`**: картинки
-  для XRAI, TCAV и PCA (`PRACTICE_xrai`, `PRACTICE_tcav`, `PRACTICE_pca_and_autoencoders`;
+  (XRAI, TCAV, ACE и PCA с 18.10.2026 берут свободные данные из
+  нашего `data/`: `cat_and_a_cupboard.jpg`, `tcav.zip`, `oxford_pets_300.zip`, `cat_piran.jpg`, см. перечень `data/` выше;
   `words_data.csv` для `PRACTICE_embeddings_and_probing` перевезен в `data/` 18.10.2026), **и из
-  `aiedu-courses/all_datasets`**: `tcav.zip` в `PRACTICE_tcav` (`student-mat.csv` практика
+  `aiedu-courses/all_datasets`**: с 18.10.2026 ни одна практика оттуда данных не берет (`tcav.zip` теперь свой, `data/tcav.zip`; `student-mat.csv` практика
   `PRACTICE_causal_linear_regression` с 18.10.2026 берет из нашего `data/`). Репозитории открытые,
   поэтому ноутбуки работают, но данные стоит перевезти сюда. California housing перевезен 18.10.2026: `data/fetch_california_housing.csv` (байт в байт тот же файл) читают `PRACTICE_shap`,
   `PRACTICE_permutation_importance` и `PRACTICE_counterfactual_explanations`.
-- **`PRACTICE_pca_and_autoencoders` за 300 картинками кошек и собак ходит в личный Google Drive.**
-  Модель берется с Hugging Face, а вот батч-часть без диска не пройдет.
+- **`hog.jpg` и `pig.png` без источника (18.10.2026).** Источник `hog.jpg` не найден, `pig.png` — снимок экрана; в тетрадях модуля 12 они заменены на `piglet.jpg`, но остаются в `HW4_cnn_learned_features`, `HW5_vanilla_gradients`, `PRACTICE_clip_dissect`, `PRACTICE_feature_visualization(_lucent)`, `PRACTICE_smoothgrad_sanity`, `PRACTICE_fullgrad_noisegrad`, `PRACTICE_explanation_metrics`, `PRACTICE_perturbation_rise`, `PRACTICE_mask_optimization`, `PRACTICE_counterfactuals_modalities`: замена — с перепрогоном и пересчетом ключей. Подписи к `cat_and_dog.jpg` (Unsplash) стоят в тетрадях модулей 11, 12, 14, в остальных — нет.
 - **Практики не прогнаны после переноса.** Выводы ячеек сняты при переносе из личных Colab
   09.08.2026; ни у одного ноутбука здесь выводов нет, и подтверждения прогона в репозитории нет.
 - **Туториал по зондированию GPT-2 остался у Сабрины и не работает.** Сбор данных читает
