@@ -1,9 +1,17 @@
 # open-xai-materials
 
-Open materials for the **[AI Interpretability School](https://ai-interpretability.school)** course.
+Course materials of **[AI Interpretability School](https://ai-interpretability.school)**.
 
 This repository holds the notebooks for homework assignments, tutorials and practice sessions,
 exactly as students work through them in the course. Solutions and answers are not published here.
+
+**License: all rights reserved, not open source.** The notebooks, the code in them and every other
+file prepared by the course authors may be used only to study the course by people who have access
+to the module, on the [terms of the site](https://ai-interpretability.school/terms). Copying,
+republishing, reusing the code in other projects, building courses on these materials and training
+AI models on them are not allowed without written permission. Third-party datasets and images keep
+their own licenses, listed in "What is where". Details in [LICENSE](LICENSE); permissions:
+support@ai-interpretability.school.
 
 ## Notebooks
 

@@ -1,0 +1,27 @@
+Copyright (c) 2026 Sabrina Sadiekh and Elena Ericheva, AI Interpretability School
+(https://ai-interpretability.school). All rights reserved.
+
+The notebooks, the code in them, the text, markdown cells, figures, exercises,
+cheat sheets and datasets prepared by the course authors in this repository are
+course materials of AI Interpretability School. They are not open source and are
+not licensed for reuse.
+
+Being able to view or download this repository grants no license. People who
+have access to the corresponding module on ai-interpretability.school may use
+the materials only to study the course, on the terms published at
+https://ai-interpretability.school/terms (section "Intellectual property and use
+of the materials").
+
+Without prior written permission from the course authors you may not copy,
+republish, distribute, sell, translate or adapt these materials, in whole or in
+part; copy the code into other projects, publications or products; publish
+solutions to the exercises; build a course or other educational product on
+them; or use them to train or fine-tune AI models or to build datasets. The
+rights to text and data mining are expressly reserved under Article 4(3) of
+Directive (EU) 2019/790.
+
+This does not restrict the open-source libraries the notebooks call. Datasets,
+images and other files by third parties are listed in README.md, section
+"What is where", and remain under their own licenses.
+
+Permissions and reports of unauthorized copies: support@ai-interpretability.school
