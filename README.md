@@ -219,8 +219,10 @@ Russian; Stepik first, then the site and English" has been replaced by the rules
 
 ## What is where
 
-- `homeworks/`, `cheatsheets/`: former public copies of the notebooks and PDF handouts, to be
-  removed; the current notebooks are given out on the site (see "Notebooks"). In notebook names,
+- `cheatsheets/`: PDF handouts, open to everyone;
+- course notebooks are not in this repository: they are given out on the site to those with
+  access to the module (see "Notebooks"); they were removed from here, including from the
+  history, on 03.11.2026. In notebook names,
   English versions carry the `_en` suffix, and the prefix gives the genre: `HW` is a homework
   assignment, `TUTORIAL` a walkthrough, `PRACTICE` a practice session inside a module;
 - `assets/`: images that the notebooks download by URL (since 18.10.2026 this folder also holds the cover images of `PRACTICE_lime`, `TUTORIAL_LIME` and `PRACTICE_permutation_importance`, moved here from `i.postimg.cc` and `ucarecdn.com`);
